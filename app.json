@@ -8,6 +8,7 @@
     ],
     "env": {},
     "website": "",
-    "repository": "https://github.com/RixEtte/heroku-novnc.git",
+    "repository": "https://github.com/RixEtte/vps-heroku.git",
+    "logo": "http://node-js-sample.herokuapp.com/node.svg",
     "stack": "container"
 }
