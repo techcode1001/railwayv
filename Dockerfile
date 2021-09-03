@@ -48,7 +48,6 @@ RUN apt-get -qqy update \
     && apt install -qqy --no-install-recommends obs-studio \
     && apt install unzip \
     && apt install vlc \
-    && apt install wget \
     && apt-get autoclean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
