@@ -1,0 +1,13 @@
+{
+    "name": "Heroku VPS 24/7 #RixEtte",
+    "description": "Deploy noVNC to Heroku.",
+    "keywords": [
+        "VNC",
+        "Docker",
+        "noVNC"
+    ],
+    "env": {},
+    "website": "",
+    "repository": "https://github.com/RixEtte/heroku-novnc.git",
+    "stack": "container"
+}
