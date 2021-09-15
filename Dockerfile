@@ -47,7 +47,8 @@ RUN apt-get -qqy update \
     && apt update \
     && apt install -qqy --no-install-recommends obs-studio \
     && apt install unzip \
-    && apt install xdotool \
+    && apt install qbittorrent \
+    && apt-add-repository ppa:qbittorrent-team/qbittorrent-stable \
     && apt-get autoclean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
