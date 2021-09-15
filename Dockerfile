@@ -47,8 +47,8 @@ RUN apt-get -qqy update \
     && apt update \
     && apt install -qqy --no-install-recommends obs-studio \
     && apt install unzip \
-    && apt install qbittorrent \
-    && apt-add-repository ppa:qbittorrent-team/qbittorrent-stable \
+    && apt install neofetch \
+    && apt-add-repository ppa:dawidd0811/neofetch \
     && apt-get autoclean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
