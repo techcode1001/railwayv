@@ -36,6 +36,7 @@ CMD ["/opt/bin/entry_point.sh"]
 FROM ubuntu-base as ubuntu-utilities
 RUN apt-get update
 RUN apt-get install ffmpeg -y
+RUN apt-get install obs-studio
 RUN apt-get -qqy update \
     && apt-get -qqy --no-install-recommends install \
         firefox htop terminator gnupg2 software-properties-common \
