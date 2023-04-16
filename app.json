@@ -9,6 +9,6 @@
     "env": {},
     "website": "",
     "repository": "https://github.com/techcode1001/railwayv.git",
-    "logo": "https://github.com/techcode1001/railwayv/raw/main/logo-light.png",
+    "logo": "https://raw.githubusercontent.com/techcode1001/railwayv/main/logo-light.png",
     "stack": "container"
 }
